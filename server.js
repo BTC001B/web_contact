@@ -14,7 +14,7 @@ app.use("/api/",userRoutes);
 
 
 
-app.get("/",(res,req)=>{
+app.get("/",(req,res)=>{
     res.send("server is Rendering ...");
 });
 
